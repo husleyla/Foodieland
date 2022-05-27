@@ -1,0 +1,1155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+li, a 
+{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.main_logo
+{
+    cursor: pointer;
+}
+.nav__links
+{
+    list-style: none;
+}
+.nav__links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a
+{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover
+{
+    color: orange;
+}
+.active
+{
+    color: orange;
+}
+.navicon
+{
+    cursor: pointer;
+    border: 0;
+    padding: 0 10px;
+}
+hr
+{
+    border: 1px solid rgba(0, 0, 0, 0.075);
+}
+.chicken_slider_div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+}
+.chicken_wings_div
+{
+    border-radius: 60px;
+    background-color: rgba(189, 243, 254, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.chicken_wings_photo
+{
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 100%;
+}
+.hotrecipes_btn
+{
+    display: flex;
+    cursor: pointer;
+    width: 150%;
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    font-weight: 900;
+}
+.hotrecipes_btn:hover
+{
+    transition: all 0.3s;
+    background-color: black;
+    color: white;
+}
+.spicychickenwings_title_loremtext,.loremtext,.chickenwings_title,.johnsmith_info,.johnsmith_viewrecipes,.viewrecipes_div,.johnsmith_photo,.johnsmith_name,.johnsmith_date,.johnsmith_text,.slider_info,.hotrecipesbtn_div
+{
+    background-color: transparent;
+}
+.slider_info
+{
+    display: flex;
+    flex-direction: column;
+}
+.hotrecipesbtn_div
+{
+    margin: auto auto 5% 10%;
+}
+._30min_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px;
+    width: 255px;
+    height: 40px;
+    margin: 1%;
+    padding: 0 1rem 0 1.3rem;
+    background-color: #b2e7f1;
+    border-radius: 50px;
+    font-size: 95%;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #485c60;
+}
+.chicken_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0px;
+    width: auto;
+    height: 40px;
+    margin: 1%;
+    padding: 0 12% 0 8%;
+    background-color: #b2e7f1;
+    border-radius: 50px;
+    font-size: 95%;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    color: #485c60;
+}
+.chicken_btn > img
+{
+    margin-right: 15%;
+    margin-left: 20%;
+}
+._30min_btn > img
+{
+    margin-right: 2px;
+}
+._30min_chicken_buttons
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto auto auto 10%;
+}
+.spicychickenwings_title_loremtext
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 5% 11%;
+}
+.chickenwings_title
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 400%;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    margin: auto auto 6% auto;
+}
+.loremtext
+{
+    width: 80%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 175%;
+}
+.johnsmith_viewrecipes
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.johnsmith_info
+{
+    display: flex;
+    align-items: center;
+    margin: 160px auto auto 4rem;
+}
+.johnsmith_info > img
+{
+    margin: auto 1rem auto auto;
+}
+.viewrecipes_div
+{
+    margin: 27% 25% 2% 13%;
+}
+.viewrecipes_btn
+{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border: 0;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 180%;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88%;
+}
+.viewrecipes_btn:hover
+{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+.johnsmith_name
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 118.75%;
+    margin: auto auto 8% auto;
+}
+.johnsmith_date
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 87.50%;
+    line-height: 106.25%;
+    margin: 5% auto auto auto;
+}
+.badge_div
+{
+    position: absolute;
+    margin-left: 28%;
+}
+.categories_viewcategoriesbtn
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.six_categories
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 8%;
+}
+.categories_title
+{
+    margin: 5% auto 2% 12%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+}
+.view_categories
+{
+    cursor: pointer;
+    border: 0;
+    border-radius: 16px;
+    background: #E7FAFE;
+    width: 10%;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    margin: 5% 12% 2% auto;
+}
+.view_categories:hover
+{
+    background-color:#9ed0da;
+    color: white;
+    transition: all 0.5s;
+}
+.six_categories > div
+{
+    cursor: pointer;
+    width: 11%;
+    height: 200px;
+    border-radius: 30px;
+}
+.six_categories > div > img
+{
+    position: absolute;
+    margin: 0 0 0 2%;
+}
+.breakfast
+{
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+.vegan
+{
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.meat
+{
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.dessert
+{
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+.lunch
+{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.chocolate
+{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.six_categories > div > p
+{
+    background: transparent;
+    margin: 85% 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110%;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.simple_and_tasty_recipes_title
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.simplerecipes_title
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 250%;
+    letter-spacing: -0.04em;
+}
+.simplerecipes_lorem
+{
+    width: 52.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 110%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+.simple_and_tasty_recipes
+{
+    margin: 8% auto auto auto;
+}
+.recipes_card_row > .recipes_card
+{
+    cursor: pointer;
+    width: 21%;
+    height: 434px;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+}
+.recipes_card_row > .recipes_card> img
+{
+    margin: auto 3% auto 4%;
+    border-radius: 30px;
+}
+.recipes_card_row > .recipes_card > p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150%;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    margin: 5% auto 9% 6%;
+}
+.recipes_card_row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.recipe_card_collection
+{
+    margin: 7% auto auto auto;
+}
+.recipes_card_row_btns
+{
+    margin: auto auto auto 6%;
+    display: flex;
+    flex-direction: row;
+}
+.recipes_card_row_btns > button
+{
+    background: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 88%;
+    line-height: 90%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.recipes_card_row_btns > button > img
+{
+    background: transparent;
+    margin: auto 8% auto auto;
+}
+.recipes_card_row_btns > .knife_fork_btn
+{
+    margin: auto auto auto 2%;
+    width: 20%;
+}
+.recipes_card_row_btns > .thirty_min_btn
+{
+    width: 30%;
+}
+.recipe_card_collection > div
+{
+    margin: 5% auto auto auto;
+}
+.heart1
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 490px;
+    top: 1925px;
+    border: 0;
+}
+.heart2
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 1065px;
+    top: 1925px;
+    border: 0;
+}
+.heart3
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 1637px;
+    top: 1925px;
+    border: 0;
+}
+.heart4
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 490px;
+    top: 2455px;
+    border: 0;
+}
+.heart5
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 1065px;
+    top: 2455px;
+    border: 0;
+}
+.heart6
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 490px;
+    top: 2990px;
+    border: 0;
+}
+.heart7
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 1065px;
+    top: 2990px;
+    border: 0;
+}
+.heart8
+{
+    position: absolute;
+    background: url(icons/heart.png);
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    left: 1637px;
+    top: 2990px;
+    border: 0;
+}
+.heart1:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart2:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart3:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart4:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart5:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart6:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart7:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.heart8:hover
+{
+    background: url(icons/heart_active.png);
+    transition: all 0.3s;
+}
+.ad
+{
+    cursor: pointer;
+}
+.learnmore_section
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8%;
+
+}
+.learn_more_title
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+}
+.learnmore_text
+{
+    margin: 10% auto auto auto;
+}
+.loremtxt
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 5% auto 15% auto
+}
+.learnmore_title_lorem
+{
+    margin: auto 30% auto auto;
+}
+.lrn_more_btn
+{
+    cursor: pointer;
+    border: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 87.5%;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    width: 22%;
+    height: 75px;
+    border-radius: 16px;
+}
+.lrn_more_btn:hover
+{
+    transition: all 0.5s;
+    background-color: #9ed0da;
+}
+.foodieland_insta
+{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.insta_row
+{
+    display: flex;
+    justify-content: space-evenly;
+    background: transparent;
+}
+.insta_title_lorem
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 13% 10% 5% 10%;
+    background: transparent;
+}
+.visit_insta
+{
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+}
+.insta_title
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.insta_lorem
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    background: transparent;
+    margin:  2% auto 1% auto;
+    width: 50%;
+}
+.visit_insta_btn
+{
+    cursor: pointer;
+    margin: 5% auto;
+    border: 0;
+    color: white;
+    background-color: black;
+    width: 12%;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.visit_insta_btn:hover
+{
+    transition: all 0.3s;
+    background-color:#485c60;
+    color: white;
+}
+.more_recipes_title
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.more_recipes_lorem
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 40%;
+}
+.more_recipes_title_lorem
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10% auto 5% auto;
+}
+.morerecipes_row_first
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% auto;
+}
+.morerecipes_row_second
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 0;
+}
+.mrcard1
+{
+    background: url(photos/MaskGroup.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard2
+{
+    background: url(photos/MaskGroup1.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard3
+{
+    background: url(photos/MaskGroup2.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard4
+{
+    background: url(photos/MaskGroup3.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard5
+{
+    background: url(photos/MaskGroup4.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard6
+{
+    background: url(photos/MaskGroup5.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard7
+{
+    background: url(photos/MaskGroup6.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.mrcard8
+{
+    background: url(photos/MaskGroup7.png) no-repeat;
+    height: 200px;
+    margin: auto auto 5% auto
+}
+.hrt_btn1
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 60%;
+}
+.hrt_btn2
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 66%;
+    background-color: transparent;
+}
+.hrt_btn3
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 68%;
+}
+.hrt_btn4
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 68%;
+}
+.hrt_btn5
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 58%;
+}
+.hrt_btn6
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 68%;
+}
+.hrt_btn7
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 68%;
+}
+.hrt_btn8
+{
+    cursor: pointer;
+    width: 52px;
+    height: 52px;
+    background: url(icons/heart.png)no-repeat;
+    border: 0;
+    margin: 5% auto auto 68%;
+}
+.mrcardtitle1
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle2
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle3
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle4
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle5
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle6
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle7
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.mrcardtitle8
+{
+    width: 70%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 107%;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+}
+.morerec_30min_btn,.morerec_fork_knife_btn
+{
+    display: flex;
+    align-items: center;
+    border: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 93%;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+.morerec_30min_btn
+{
+    margin: 8% 4% 0 0;
+}
+.morerec_fork_knife_btn
+{
+    margin: 8% 0 0 0;
+}
+.morerecipes_btns
+{ 
+    display: flex;
+    flex-direction: row;
+}
+.thirtyminbtn_card2
+{
+    margin: 18% 4% 0 0;
+}
+.knifeandforkbrn_card2
+{
+    margin: 18% 0 0 0;
+}
+.morerec_30min_btn > img
+{
+    margin: auto 0.8rem auto auto;
+}
+.morerec_fork_knife_btn > img
+{
+    margin: auto 0.8rem auto auto;
+}
+.morerecipes_row_first, .morerecipes_row_secon > div
+{
+    cursor: pointer;
+}
+.hrt_btn1:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn2:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn3:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn4:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn5:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn6:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn7:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.hrt_btn8:hover
+{
+   background: url(icons/heart_active.png)no-repeat;
+   transition: all 0.5s;
+}
+.inbx
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inbx > img
+{
+    position: relative;
+    width: 90%;
+}
+.inbx_txt
+{
+    position: absolute;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15rem;
+}
+
+.inbx_title
+{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 300%;
+    line-height: 140px;
+    letter-spacing: -0.04em;
+}
+.inbx_lorem
+{
+    background: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 28px;
+    text-align: center;
+    width: 60%;
+    color: rgba(0, 0, 0, 0.6);
+}
+.inbx_input
+{
+    position: relative;
+    border: 0;
+    border-radius: 24px;
+    width: 25rem;
+    height: 80px;
+    font-size: 100%;
+}
+.inpt_btn
+{
+    position: absolute;
+    display:flex;
+    flex-direction:row;
+    margin-top: 18rem;
+    background-color: transparent;
+}
+.sbscrb_btn
+{
+    cursor: pointer;
+    position: absolute;
+    border: 0;
+    border-radius: 16px;
+    background-color: black;
+    color: white;
+    margin: 2% 0 0 57%;
+    width: 40%;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 93%;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+}
+.inbx_input::placeholder
+{
+    padding: 5%;
+}
+.sbscrb_btn:hover
+{
+    background-color:#9ed0da;
+    color: white;
+}
+.prefooter__nav__links
+{
+    list-style: none;
+}
+.prefooter__nav__links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.prefooter__nav__links li a
+{
+    transition: all 0.3s ease 0s;
+}
+.prefooter__nav__links li a:hover
+{
+    color: orange;
+}
+.prefooter
+{
+    margin: 10% 6% 2.5% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prefooter_loremtxt
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 5% 0 0 0;
+}
+.hrfooter
+{
+    width: 88%;
+    margin: 0 3% 0 6%;
+}
+.footer
+{
+    display: flex;
+    margin: 2% 0 2% 40%;
+}
+.flwbase
+{
+    margin: 0 50% 0 0;
+}
